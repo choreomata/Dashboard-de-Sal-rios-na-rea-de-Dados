@@ -12,7 +12,7 @@ st.set_page_config(
 )
 
 # --- Carregamento dos dados ---
-df = pd.read_csv("C:\\Users\\chore\\Desktop\\R101\\dash_dado_alura\\dados-imersao-final.csv")
+df = pd.read_csv("https://raw.githubusercontent.com/choreomata/Dashboard-de-Sal-rios-na-rea-de-Dados/refs/heads/main/dados-imersao-final.csv")
 
 # --- Barra Lateral (Filtros) ---
 st.sidebar.header("🔍 Filtros")
