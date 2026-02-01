@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 import streamlit as st
-import plotly as px
+import plotly.express as px
 
 # --- Configuração da Página ---
 # Define o título da página, o ícone e o layout para ocupar a largura inteira.
@@ -136,4 +136,5 @@ with col_graf4:
 
 # --- Tabela de Dados Detalhados ---
 st.subheader("Dados Detalhados")
+
 st.dataframe(df_filtrado)
